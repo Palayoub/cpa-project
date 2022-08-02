@@ -1,10 +1,13 @@
-
+import "./index.css"
+import Header from "../../components/Header";
+import Content from "../../components/Content";
+import Footer from "../../components/Footer";
 function Home() {
     return (
-        <div className="App">
-            <header className="App-header">
-                OUR CPA PROJECT.
-            </header>
+        <div className={"page-container"}>
+            <Header />
+            <Content />
+            <Footer />
         </div>
     );
 }

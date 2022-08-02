@@ -1,0 +1,29 @@
+.page-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.page-header {
+    display: flex;
+    flex: 0.1;
+    width: 100%;
+    background-color: #dcdcdc;
+    align-items: center;
+    justify-content: center;
+}
+.page-content {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.page-footer {
+    display: flex;
+    flex: 0.1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #dcdcdc;
+}
