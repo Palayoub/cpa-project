@@ -8,10 +8,15 @@
 .page-header {
     display: flex;
     flex: 0.1;
-    width: 100%;
-    background-color: #dcdcdc;
+    width: 60%;
+    background-color: white;
     align-items: center;
-    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    align-self: self-start;
+    border-bottom-right-radius: 50px;
+    padding-left: 20px;
 }
 .page-content {
     display: flex;
@@ -25,5 +30,5 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: #dcdcdc;
+    background-color: white;
 }
